@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".lod").classList.add("d-none");
       document.body.classList.remove("loading");
       localStorage.setItem("loaderShown", "true");
-    }, 1500); 
+    }, 3000); 
   } else {
     document.querySelector(".lod").classList.add("d-none");
     document.body.classList.remove("loading");
