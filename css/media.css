@@ -268,3 +268,9 @@ font-size: 12px;
   padding: 0 5px;
 }
 }
+
+@media screen and (max-width: 440px) {
+  #fruits .orange button {
+    margin-top: 20px;
+  }
+}
